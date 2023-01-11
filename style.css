@@ -243,4 +243,16 @@ h2 {
     width: 50%;
     height: 3em;
   }
+
+  #content {
+    display: flex;
+  }
+  #content img {
+    height: 8em;
+    order: 0;
+  }
+  #content h3,
+  #content p {
+    order: 1;
+  }
 }
