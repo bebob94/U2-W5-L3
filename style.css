@@ -208,19 +208,24 @@ h2 {
     display: flex;
   }
   header {
-    height: 100%;
+    height: unset;
+    justify-content: unset;
+    width: 30%;
   }
 
-  nav {
+  header nav {
+    height: 100%;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: unset;
   }
   #logo {
     order: 0;
+    margin: 1em;
   }
 
   header button {
     order: 1;
+    margin: 1em;
   }
 
   #remove2 {
@@ -242,17 +247,5 @@ h2 {
     margin-top: 0.3em;
     width: 50%;
     height: 3em;
-  }
-
-  #content {
-    display: flex;
-  }
-  #content img {
-    height: 8em;
-    order: 0;
-  }
-  #content h3,
-  #content p {
-    order: 1;
   }
 }
