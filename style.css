@@ -1,0 +1,141 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  width: 90%;
+  margin: 1em auto;
+  background-color: beige;
+  border-radius: 70px;
+  height: 20em;
+  padding-top: 1em;
+}
+#logo {
+  background-color: rgba(248, 217, 41, 0.781);
+  margin: 1em auto;
+  width: 90%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#logo:hover {
+  opacity: 0.5;
+}
+
+header img {
+  height: 4em;
+  margin-right: 1em;
+}
+header h1 {
+  align-items: center;
+}
+
+header #logo + div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.botton_header {
+  width: 180px;
+  background-color: rgba(248, 217, 41, 0.781);
+  border-radius: 40px;
+  margin: 1em 0;
+  cursor: pointer;
+}
+
+.botton_header:hover {
+  opacity: 0.5;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 1em auto;
+  width: 60%;
+  font-size: 30px;
+  font-weight: bolder;
+  color: brown;
+}
+
+.cards {
+  margin: 2em auto;
+  width: 90%;
+  background-color: beige;
+  border-radius: 50px;
+  padding-bottom: 0.3em;
+}
+
+.cards img {
+  height: 50%;
+  width: 100%;
+  border-radius: 50px 50px 0 0;
+}
+
+.description_card {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  margin-bottom: 0.5em;
+}
+
+.description_card h4 {
+  margin: 1.5em 0;
+  font-weight: 800;
+}
+
+.description_card p {
+  margin: 0;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.description_card h3 {
+  font-weight: 500;
+  margin-top: 1.5em;
+}
+
+.add_button {
+  background-color: rgba(248, 217, 41, 0.781);
+  width: 50%;
+  margin: auto;
+  margin-bottom: 1em;
+  padding: 0.5em 0;
+  border-radius: 50px;
+
+  cursor: pointer;
+}
+
+.add_button:hover {
+  opacity: 0.5;
+}
+
+#content {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  text-align: left;
+  background-color: beige;
+  border-radius: 30px;
+}
+
+#content h3 {
+  margin: 1em;
+  padding-top: 1em;
+  color: brown;
+}
+
+#content p {
+  margin: 1em;
+  color: brown;
+}
+
+#content img {
+  width: 90%;
+  margin: 1em;
+}
+
+@media screen and (min-width: 576) {
+}
